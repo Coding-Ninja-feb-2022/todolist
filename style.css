@@ -1,0 +1,119 @@
+.input-icons i {
+  position: relative;
+}
+
+.input-icons {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.icon {
+  padding: 10px;
+  min-width: 40px;
+  left:1.5%;
+  top:51px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+}
+body{
+background: #ccc;
+}
+.container{
+background: #efefd5;
+margin-right: 1em;
+margin-left: 1em;
+border-radius: 10px;
+}
+.finput{
+margin-right: 1%;
+margin-left: 1%;
+border-radius: 10px;
+width: 98%;
+background: #eaead3;
+margin-top: 1em;
+height: 3em;
+border-color: transparent;
+padding-left: 2%;
+padding-right: 2%;
+}
+.finput:focus::placeholder {
+color: transparent;
+}
+.finput:focus{
+background: #ccc;
+border-color: transparent;
+outline: none;
+}
+.finput:focus-visible{
+background: #ccc;
+border-color: transparent;
+outline: none;
+}
+.finput:active{
+background: #ccc;
+border-color: transparent;
+outline: none;
+}
+.finput:hover{
+background: #ccc;
+border-color: transparent;
+outline: none;
+}
+.submit-b{
+left: 95%;
+top: -38px;
+}
+.submit-d{
+left:92.6%;
+top: 0px;
+position: relative;
+}
+.hr{
+border-top:1px solid #ccc;
+}
+.align-right{
+text-align: right;
+width: 49%;
+display: inline-block;
+}
+.align-left{
+text-align: left;
+width: 49%;
+display: inline-block;
+}
+.row{
+width:98%;
+margin:1%;
+}
+.checkbox-round {
+width: 1.3em;
+height: 1.3em;
+background-color: white;
+border-radius: 50%;
+vertical-align: middle;
+border: 1px solid #ddd;
+appearance: none;
+-webkit-appearance: none;
+outline: none;
+cursor: pointer;
+}
+
+.checkbox-round:checked {
+background-color: gray;
+}
+.task{
+margin: 1em;
+}
+.grey{
+color: #ccc;
+}
+.complete{
+background: #bfdcbf;
+}
+.d-none{
+display:none;
+}
+.pointer {cursor: pointer;}
